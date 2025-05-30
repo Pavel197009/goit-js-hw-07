@@ -1,0 +1,45 @@
+:root {
+    --primary-brand-color: #4E75FF;
+    --pressed-state-color: #6C8CFF;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --white-color: white;
+    --lightgray: #F6F6FE;
+    --gray: #808080;
+
+}
+
+.list {
+    width: 440px;
+    padding: 24px;
+    background-color: var(--white-color);
+
+}
+
+#categories {
+    width: 392px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.item {
+    padding: 16px;
+    background-color: var(--lightgray);
+    margin-bottom: 24px;
+}
+
+li:not(.item) {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px 0 8px 16px;
+    border: 1px solid var(--gray);
+    color: var(--dark-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
